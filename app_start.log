@@ -1,0 +1,24 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-10-01T16:24:25.637+09:00  INFO 12181 --- [demo-spring-hello] [           main] c.e.d.DemoSpringHelloApplication         : Starting DemoSpringHelloApplication v0.0.1 using Java 17.0.16 with PID 12181 (/home/user/code/demo-spring-hello/app.jar started by user in /home/user/code/demo-spring-hello)
+2025-10-01T16:24:25.640+09:00  INFO 12181 --- [demo-spring-hello] [           main] c.e.d.DemoSpringHelloApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T16:24:26.381+09:00  INFO 12181 --- [demo-spring-hello] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-01T16:24:26.394+09:00  INFO 12181 --- [demo-spring-hello] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T16:24:26.394+09:00  INFO 12181 --- [demo-spring-hello] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T16:24:26.421+09:00  INFO 12181 --- [demo-spring-hello] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-01T16:24:26.423+09:00  INFO 12181 --- [demo-spring-hello] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 735 ms
+2025-10-01T16:24:26.774+09:00  INFO 12181 --- [demo-spring-hello] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-01T16:24:26.789+09:00  INFO 12181 --- [demo-spring-hello] [           main] c.e.d.DemoSpringHelloApplication         : Started DemoSpringHelloApplication in 1.518 seconds (process running for 1.894)
+2025-10-01T16:24:42.109+09:00  INFO 12181 --- [demo-spring-hello] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T16:24:42.109+09:00  INFO 12181 --- [demo-spring-hello] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T16:24:42.110+09:00  INFO 12181 --- [demo-spring-hello] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-01T16:24:57.488+09:00  INFO 12181 --- [demo-spring-hello] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T16:24:57.495+09:00  INFO 12181 --- [demo-spring-hello] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
