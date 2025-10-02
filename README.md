@@ -37,4 +37,18 @@ $ ssh -i <KEY.pem> ubuntu@<SERVER_IP> \
 ```
 
 ##Dockerizing
--https://rudals2334.github.io/
+- https://rudals2334.github.io/
+- openJDK 17
+``` bash
+
+#빌드
+$ ./gradlew clean bootJar 
+$ sudo docker build --build-arg JAR_FILE=build/libs/\*.jar -t rudals831/spring-rest-api:0.3.0 .
+$ sudo docker images | grep spring-rest-api
+rudals831/spring-rest-api   0.3.0           641ddaf0df32   46 minutes ago   347MB
+$ sudo docker push rudals831/spring-rest-api:0.3.0
+
+$ sudo docker status
+
+# Run
+# sudo docker run -d -p 8030:8080 --name srq0.0 rudals831/spring-rest-api:0.3.0
